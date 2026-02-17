@@ -52,9 +52,9 @@ RequirementManagementSystem
 - **State Management**: Context API
 
 ## Frontend Setup
--- **cd frontend**
--- **npm install**
--- **npm run dev**
+- **cd frontend**
+- **npm install**
+- **npm run dev**
 
 Author
 Mohanraj S
