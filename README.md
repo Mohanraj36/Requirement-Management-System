@@ -1,14 +1,9 @@
 # Requirement-Management-System
-A full-stack web application for managing academic requirements with role-based access control for students and administrators.
-
-# Requirement Management System
-
 A comprehensive full-stack web application designed to streamline the management of academic requirements. 
-Built with Spring Boot and React, it provides an intuitive interface for students to track their progress 
+Built with Spring Boot with role-based access control for students, administrators and React, it provides an intuitive interface for students to track their progress 
 and for administrators to manage institutional requirements.
 
 ## Features
-
 ### 👨‍🎓 Student Features
 - **Dashboard**: View personalized requirement status and progress
 - **Requirement Tracking**: Browse and track academic requirements
@@ -25,21 +20,6 @@ and for administrators to manage institutional requirements.
 - Role-based access control (RBAC)
 - Secure authentication and authorization
 - Protected routes for authorized users only
-
-## Tech Stack
-
-### Backend
-- **Framework**: Spring Boot 4
-- **Language**: Java 21
-- **Database**: MySQL
-- **API**: RESTful architecture
-
-### Frontend
-- **Framework**: React 18
-- **Build Tool**: Vite
-- **Styling**: CSS
-- **State Management**: Context API
-
 ## 📦 Project Structure
 
 ```bash
@@ -58,10 +38,23 @@ RequirementManagementSystem
     ├── src/test
     └── pom.xml
 ```
+## Tech Stack
+### Backend
+- **Framework**: Spring Boot 4
+- **Language**: Java 21
+- **Database**: MySQL
+- **API**: RESTful architecture
+
+### Frontend
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Styling**: CSS
+- **State Management**: Context API
+
 ## Frontend Setup
-cd frontend
-npm install
-npm run dev
+-- **cd frontend**
+-- **npm install**
+-- **npm run dev**
 
 Author
 Mohanraj S
