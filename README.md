@@ -29,9 +29,9 @@ and for administrators to manage institutional requirements.
 ## Tech Stack
 
 ### Backend
-- **Framework**: Spring Boot
-- **Language**: Java
-- **Database**: [Your Database - PostgreSQL/MySQL/etc.]
+- **Framework**: Spring Boot 4
+- **Language**: Java 21
+- **Database**: MySQL
 - **API**: RESTful architecture
 
 ### Frontend
