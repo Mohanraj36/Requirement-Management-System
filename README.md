@@ -40,22 +40,24 @@ and for administrators to manage institutional requirements.
 - **Styling**: CSS
 - **State Management**: Context API
 
-## Project Structure
-RequirementManagementSystem/
-├── frontend/ # React + Vite application
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Page components
-│ │ ├── context/ # Context API for state
-│ │ └── services/ # API integration
-│ └── package.json
-└── RequirementManagementSystem/ # Spring Boot backend
-├── src/
-│ ├── main/
-│ │ ├── java/ # Java source code
-│ │ └── resources/
-│ └── test/
-└── pom.xml
+## 📦 Project Structure
+
+```bash
+RequirementManagementSystem
+├── frontend
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── context
+│   │   └── services
+│   └── package.json
+│
+└── backend (Spring Boot)
+    ├── src/main/java
+    ├── src/main/resources
+    ├── src/test
+    └── pom.xml
+```
 ## Frontend Setup
 cd frontend
 npm install
