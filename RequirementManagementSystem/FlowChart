@@ -1,0 +1,15 @@
+ROLE
+  │ 1
+  │
+  ∞
+USER
+  │
+  ├── 1–1 ── STUDENT ──── ∞ ──── MOCK_RATING
+  │           │                     ▲
+  │           │                     │
+  │           ∞                     │
+  │         BATCH                   │
+  │                                 │
+  ├── 1–1 ── STAFF ─────────────────┘
+  │
+  └── 1–1 ── HR ──── 1 ────< ∞ REQUIREMENT

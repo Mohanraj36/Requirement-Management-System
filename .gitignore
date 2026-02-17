@@ -1,0 +1,48 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java / Spring Boot (Backend)
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/**
+**/*.class
+**/*.log
+**/*.ctxt
+.mtj.tmp/
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# Node / Frontend (Frontend)
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+.npm
+.yarn
+yarn-error.log
+package-lock.json # Optional: Some prefer to commit this, but if you have conflicts often, you might ignore it. Wait, usually you commit lock files. I will KEEP IT.
+# I will NOT ignore package-lock.json as it is best practice to commit it.
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
