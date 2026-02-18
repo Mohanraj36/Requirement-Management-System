@@ -1,6 +1,6 @@
 # Requirement-Management-System
 A comprehensive full-stack web application designed to streamline the management of academic requirements. 
-Built with Spring Boot with role-based access control for students, administrators and React, it provides an intuitive interface for students to track their progress 
+Built with Spring Boot 4x with role-based access control for students, administrators and frontend React 18v, it provides an intuitive interface for students to track their progress 
 and for administrators to manage institutional requirements.
 
 ## Features
