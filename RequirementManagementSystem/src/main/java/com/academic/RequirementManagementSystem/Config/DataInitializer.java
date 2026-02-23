@@ -14,7 +14,7 @@ import com.academic.RequirementManagementSystem.Repository.RoleRepository;
 import com.academic.RequirementManagementSystem.Repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
-
+// create basic user, role for start
 @Component
 @RequiredArgsConstructor
 public class DataInitializer implements CommandLineRunner {
@@ -25,7 +25,7 @@ public class DataInitializer implements CommandLineRunner {
 
    @Override
    public void run(String... args) throws Exception {
-       // Initialize Roles
+       // create role
        for (RoleName roleName : RoleName.values()) {
            if (roleRepository.findByRoleName(roleName).isEmpty()) {
                RoleEntity role = new RoleEntity();
@@ -34,7 +34,7 @@ public class DataInitializer implements CommandLineRunner {
            }
        }
 
-       // Initialize Admin User
+       // for create admin user
        if (userRepository.findByUserName("admin").isEmpty()) {
            User admin = new User();
            admin.setUserName("admin");
@@ -55,7 +55,7 @@ public class DataInitializer implements CommandLineRunner {
            System.out.println("Default Admin User created: admin/admin123");
        }
 
-       // Initialize Sample HR User
+       // create hr 
        if (userRepository.findByUserName("hr_user").isEmpty()) {
            User hr = new User();
            hr.setUserName("hr_user");
@@ -75,7 +75,7 @@ public class DataInitializer implements CommandLineRunner {
            userRepository.save(hr);
        }
 
-       // Initialize Sample Staff User
+       // create staff 
        if (userRepository.findByUserName("staff_user").isEmpty()) {
            User staff = new User();
            staff.setUserName("staff_user");
