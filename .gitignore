@@ -1,8 +1,10 @@
 # IDEs and Editors
 .idea/
 .vscode/
+.settings/
 *.swp
 *.swo
+
 
 # OS
 .DS_Store
